@@ -4,9 +4,9 @@ module.exports = {
         connection: {
             host: process.env.PGHOST || "localhost",
             port: process.env.PGPORT || 5432,
-            database: "cup2022",
-            user: "cup2022",
-            password: "123456",
+            database: "worldcup",
+            user: "postgres",
+            password: "postgres",
             application_name: "knex-development",
         },
         migrations: {
